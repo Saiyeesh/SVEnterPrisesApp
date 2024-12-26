@@ -12,14 +12,15 @@ import PLoopCutBag from './Components/PLoopCutBag/PLoopCutBag';
 import StichedBag from './Components/StichedBag/StichedBag';
 import ReturnGiftBags from './Components/ReturnGiftBags/ReturnGiftBags';
 import Products from './Components/Products/Products';
-
+import AboutUs from './Components/AboutUs/AboutUs';
 function App() {
   return (
     <>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/products' element={<Products></Products>}>gi</Route>
+        <Route path='/products' element={<Products></Products>}></Route>
+        <Route path='/about' element={<AboutUs></AboutUs>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/wCutBag' element={<WcutBag></WcutBag>}></Route>
         <Route path='/pCutBag' element={<PwcutBag></PwcutBag>}></Route>
